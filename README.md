@@ -31,3 +31,15 @@ I am using the subprocess package to use the ffmpeg command.
 However, in order to use the command by the subprocess, you must register the ffmpeg binary location to your environment Path, then restart your computer.
 The relative path is : ${project_location}/modules/ffmpeg/bin  
 > Where **${project_location}** is the folder where you cloned my repository.
+
+### Use the program
+
+- python mp3_converter.py
+  - The program ask you to tell him where is your MediaInfo.dll
+  - Then it ask you to tell him which folder you want to process recursivly
+  - Then, grab a coffee and wait until finish
+  
+  
+## It is not working ?
+
+Please, let me know the stacktrace you get, I could help you ;) 
