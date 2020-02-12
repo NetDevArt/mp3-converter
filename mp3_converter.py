@@ -44,7 +44,7 @@ def list_files_to_convert():
             for track in media_info.tracks:
                 if 'Audio' in track.track_type:
                     # print(track.track_type, track.bit_rate)
-                    # print(filepath, "Is an Audio/Video file, and should be converted")
+                    # print(filepath, "Is an Audio/Video file, and should be converted because a sound track is found")
                     yield dict(path=filepath, info=media_info)
 
 
